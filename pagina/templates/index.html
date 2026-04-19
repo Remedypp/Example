@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo Básico</title>
+    
+    <!-- 1. UNIR HTML CON CSS: -->
+    <!-- En Flask usamos url_for('static', filename='...') para decirle a HTML dónde está nuestro CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    
+    <h1>Ejemplo Súper Simple</h1>
+
+    <!-- 3. RECIBIR EL TEXTO DE PYTHON EN HTML: -->
+    <!-- Las dobles llaves imprimen exactamente la variable que enviamos desde app.py -->
+    <p> {{ texto_desde_python }} </p>
+
+</body>
+</html>

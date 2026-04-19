@@ -1,0 +1,18 @@
+/* Fondo blanco y texto negro para que se lea bien siempre */
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* Este color rojo demuestra que el CSS está correctamente unido al HTML */
+h1 {
+    color: red;
+}
+
+/* Hacemos el texto de Python un poco más grande para que destaque */
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
